@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="651c5005-0819-4ff1-9f50-d4a2e7779d51" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="30ESqI2aBLT9cixg2igDpkJbO5T" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AddArrayList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AddingUsers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Addoperation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArithmeticOp.executor&quot;: &quot;Coverage&quot;,
+    &quot;Application.BasicAnagram.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CheckingMath.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CietArrayList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CietArrayListDriver.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CietStack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CietStackDriver.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IsPrime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyChildInheritence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NextPerfectSquare.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NextPrimes.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.PowerOfNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RightAngleTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RunMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SampleCode.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOfNaturalNo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestingProblems.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UntilSingleDigit.executor&quot;: &quot;Run&quot;,
+    &quot;Application.basics.IsPrime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.implementingOwnDS.CietStack.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kolag/IdeaProjects/CITY_NEW&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/kolag/IdeaProjects/CITY_NEW/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kolag\IdeaProjects\CITY_NEW\src" />
+      <recent name="C:\Users\kolag\IdeaProjects\CITY_NEW\src\string" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="basics" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AddArrayList">
+    <configuration name="AddArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collectionInterface.AddArrayList" />
+      <module name="CITY_NEW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collectionInterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArithmeticOp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="accessModifiers.ArithmeticOp" />
+      <module name="CITY_NEW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="accessModifiers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="accessModifiers.BasicAnagram" />
+      <module name="CITY_NEW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="accessModifiers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CietArrayListDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="implementingOwnDS.CietArrayListDriver" />
+      <module name="CITY_NEW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="implementingOwnDS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CietStackDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="implementingOwnDS.CietStackDriver" />
+      <module name="CITY_NEW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="implementingOwnDS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunMain" type="Application" factoryName="Application">
+      <module name="CITY_NEW" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.RunMain" />
+      <item itemvalue="Application.AddArrayList" />
+      <item itemvalue="Application.BasicAnagram" />
+      <item itemvalue="Application.ArithmeticOp" />
+      <item itemvalue="Application.CietArrayListDriver" />
+      <item itemvalue="Application.CietStackDriver" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AddArrayList" />
+        <item itemvalue="Application.CietArrayListDriver" />
+        <item itemvalue="Application.BasicAnagram" />
+        <item itemvalue="Application.CietStackDriver" />
+        <item itemvalue="Application.ArithmeticOp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="651c5005-0819-4ff1-9f50-d4a2e7779d51" name="Changes" comment="" />
+      <created>1753191435958</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1753191435958</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/src" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CITY_NEW$ArithmeticOp.ic" NAME="ArithmeticOp Coverage Results" MODIFIED="1758292703568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>accessModifiers.*</FILTER>
+    </SUITE>
+  </component>
+</project>
