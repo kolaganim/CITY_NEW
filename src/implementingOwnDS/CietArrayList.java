@@ -1,74 +1,81 @@
-package basics;
-
-import java.util.ArrayList;
-
+package implementingOwnDS;
 public class CietArrayList {
-    ArrayList<Integer> list;
-
-    // Constructor
-    CietArrayList() {
-        list = new ArrayList<>();
+    static int n;
+    static int top;
+    static int a[];
+    public CietArrayList(int n){
+        this.n=n;
+        a=new int[n];
+        top=0;
     }
+    public static void increaseMemory(){
+        n=(int)(n*1.5);
+        int newa[]=new int[n];
 
-    // Push -> O(1) amortized
-    public void push(int x) {
-        list.add(x);
+        for(int i=0;i<top;i++){
+            newa[i]=a[i];
+        }
+        a=newa;
     }
-
-    // Pop -> O(1)
-    public int pop() {
-        if (isEmpty()) {
-            System.out.println("Stack Underflow!");
+    public static int size(){
+        if(top==0) return 0;
+        else
+            return top;
+    }
+    public static boolean addAtLast(int x){
+        if(top==n) {
+            increaseMemory();
+        }
+        a[top++]=x;
+        return true;
+    }
+    public static boolean addAtFirst(int x){
+        if(top==n) {
+            increaseMemory();
+        }
+        for(int i=top-1;i>=0;i--) {
+            a[i + 1] = a[i];
+        }
+        a[0]=x;
+        top++;
+        return true;
+    }
+    public static boolean removeFromLast(){
+        if(top==0)
+            return false;
+        else {
+            top--;
+            return true;
+        }
+    }
+    public static boolean removeFromFirst(){
+        if(top==0) return false;
+        int removeEle=a[0];
+        for(int i=0;i<top-1;i++){
+            a[i]=a[i+1];
+        }
+        top--;
+        return true;
+    }
+    public static boolean elementSearch(int x){
+        for(int i=0;i<top;i++){
+            if(a[i]==x){
+                return true;
+            }
+        }
+        return false;
+    }
+    public static boolean setElement(int ind,int num){
+        if(ind<=0 || ind>=n){
+            return false;
+        }
+        a[ind]=num;
+        return true;
+    }
+    public static int getElement(int ind){
+        if(ind<=0 || ind>=top){
             return -1;
         }
-        return list.remove(list.size() - 1);
-    }
-
-    // Peek -> O(1)
-    public int peek() {
-        if (isEmpty()) {
-            System.out.println("Stack is Empty!");
-            return -1;
-        }
-        return list.get(list.size() - 1);
-    }
-
-    // isEmpty -> O(1)
-    public boolean isEmpty() {
-        return list.isEmpty();
-    }
-
-    // Size -> O(1)
-    public int size() {
-        return list.size();
-    }
-
-    // Display all elements
-    public void display() {
-        if (isEmpty()) {
-            System.out.println("Stack is Empty!");
-            return;
-        }
-        System.out.print("Stack elements: ");
-        for (int x : list) {
-            System.out.print(x + " ");
-        }
-        System.out.println();
-    }
-
-    // Test
-    public static void main(String[] args) {
-        CietArrayList st = new CietArrayList();
-
-        st.push(10);
-        st.push(20);
-        st.push(30);
-
-        st.display(); // Stack elements: 10 20 30
-
-        System.out.println("Peek: " + st.peek());   // 30
-        System.out.println("Pop: " + st.pop());     // 30
-        st.display(); // Stack elements: 10 20
-        System.out.println("Size: " + st.size());   // 2
+        return a[ind];
     }
 }

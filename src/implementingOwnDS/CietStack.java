@@ -1,64 +1,49 @@
-package basics;
-
+package implementingOwnDS;
 public class CietStack {
-    int[] a;
-    int top, n;
-
-    // Constructor
-    CietStack(int n) {
-        a = new int[n];
-        top = -1; // stack is empty initially
-        this.n = n;
-    }
-
-    // Push -> O(1)
-    public boolean push(int x) {
-        if (top == n - 1) {
-            System.out.println("Stack Overflow!");
+        static int[] a;
+        static int top;
+        static int n;
+        public CietStack( int n) {
+            a =new int[n];
+            top=0;
+            this.n=n;
+        }
+        public CietStack( ) {
+        }
+        public static boolean push(int x){
+            if(top==n) return false;
+            else{
+                a[top++]=x;
+                return true;
+            }
+        }
+        public static boolean pop(int y){
+            if(top==0) return false;
+            else{
+                a[--top]=y;
+                return true;
+            }
+        }
+        public static int size(){
+            if(top==0) return 0;
+            else
+                return top;
+        }
+        public static boolean elementSearch(int x){
+            for(int i=0;i<n;i++){
+                if(a[i]==x){
+                    return true;
+                }
+            }
             return false;
         }
-        a[++top] = x;
-        return true;
-    }
-
-    // Pop -> O(1)
-    public int pop() {
-        if (top == -1) {
-            System.out.println("Stack Underflow!");
-            return -1;
+        public static int peek( ){
+            return a[top-1];
         }
-        return a[top--];
-    }
 
-    // Peek -> O(1)
-    public int peek() {
-        if (top == -1) {
-            System.out.println("Stack is Empty!");
-            return -1;
+        public static boolean empty(){
+            if(top==0)
+                return true;
+            return false;
         }
-        return a[top];
     }
-
-    // isEmpty -> O(1)
-    public boolean isEmpty() {
-        return top == -1;
-    }
-
-    // isFull -> O(1)
-    public boolean isFull() {
-        return top == n - 1;
-    }
-
-    // Test
-    public static void main(String[] args) {
-        CietStack st = new CietStack(5);
-
-        st.push(10);
-        st.push(20);
-        st.push(30);
-
-        System.out.println("Peek: " + st.peek()); // O(1)
-        System.out.println("Pop: " + st.pop());   // O(1)
-        System.out.println("Is Empty? " + st.isEmpty()); // O(1)
-    }
-}
